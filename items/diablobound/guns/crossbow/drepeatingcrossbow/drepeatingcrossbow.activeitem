@@ -1,15 +1,15 @@
 {
-	"itemName" : "dlightcrossbow",
+	"itemName" : "drepeatingcrossbow",
 	"price" : 0,
 	"maxStack" : 1,
 	"rarity" : "common",
 	"category" : "Crossbow Tier 1",
 	"description" : "",
-	"shortdescription" : "Light Crossbow",
+	"shortdescription" : "Repeating Crossbow",
 	"tooltipKind" : "base",
 	"twoHanded" : true,
 	
-	"inventoryIcon" : "/items/diablobound/sprite/guns/crossbow/dlightcrossbow.png",
+	"inventoryIcon" : "/items/diablobound/sprite/guns/crossbow/drepeatingcrossbow.png",
 	
 	"animation" : "gunsprite.animation",
 	"animationParts" : { },
@@ -46,13 +46,13 @@
 	"gunConfig" : {	
 		"inaccuracy" 		: 0, 					//Your random number generator
 		"compatibleAmmo" 	: ["dcrossbowbolt" , "dcrossbowbolt" ],
-		"projectileConfig" 	: {"speed" : 80, "power" : 9},
+		"projectileConfig" 	: {"speed" : 100, "power" : 12},
 		"projectileType" 	: "diabloboundbolt",
 		"smokeEffect" 		: false,
 		"shellEffect" 		: false,
 		"fireOffset" 		: [2.20,0.30],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
-		"fireSpeed" 		: 0.65,					//atataatatatatata
+		"fireSpeed" 		: 0.3,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation
 		"fireMode" 			: "auto", 				//auto, burst, semi
 		"burstAmount" 		: 5,
