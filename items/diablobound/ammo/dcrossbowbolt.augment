@@ -1,0 +1,18 @@
+{
+	"itemName" : "dcrossbowbolt",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 500,
+	"inventoryIcon" : "/items/diablobound/sprite/shells/diabloboltquiver.png",
+	"description" : "",
+	"shortdescription" : "Crossbow Bolt",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: ["dcrossbowbolt" , "dcrossbowbolt" ],
+		"projectileConfig" 	: {"speed" : 90},
+		"projectileType" 	: "diabloboundbolt"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}

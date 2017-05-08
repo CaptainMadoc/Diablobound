@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 300 },
+    { "item" : "plantfibre", "count" : 300 },
+    { "item" : "darkwoodmaterial", "count" : 300 }
+  ],
+  "output" : { "item" : "diabloboltquiver", "count" : 1 },
+  "groups" : [ "mod", "plain", "weapons", "tools", "all" ]
+}

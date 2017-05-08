@@ -1,0 +1,31 @@
+{
+  "itemName" : "diabloboundshortbow",
+  "rarity" : "Common",
+  "maxStack" : 2500,
+  "category" : "throwableItem",
+  "inventoryIcon" : "diabloboundshortbow.png",
+  "image" : "diabloboundshortbow.png",
+  "shortdescription" : "Short Bow",
+  "description" : "Made by a blacksmith from the Rogue Encampment.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.5,
+
+  "projectileType" : "diabloboundarrow",
+  "projectileConfig" : {
+    "speed" : 80,
+    "power" : 9,
+    "knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/Diablobound/weapon/diablobow1.ogg" ]
+      }
+    ]
+  }
+}

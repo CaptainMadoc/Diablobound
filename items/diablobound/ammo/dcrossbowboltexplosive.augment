@@ -1,0 +1,23 @@
+{
+	"itemName" : "dcrossbowboltexplosive",
+	"rarity" : "common",
+	"category" : "Ammo",
+	"price" : 0,
+	"maxStack" : 10000,
+	"inventoryIcon" : "/items/diablobound/sprite/shells/diabloboltquiver.png",
+	"description" : "WARNING: Permanently Destroys Potential Booty",
+	"shortdescription" : "Epxloding Crossbow Bolt",
+	
+	"gunConfig" : {	
+		"compatibleAmmo" 	: ["dcrossbowboltexplosive" , "dcrossbowbolt" ],
+		"projectileConfig" 	: {"speed" : 200, "power" : 100, "actionOnReap" : [
+			{
+				"action" : "config",
+				"file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+			}
+		]},
+		"projectileType" 	: "diabloboundbolt"
+	},
+	
+	"scripts" : [ "ammo.lua" ]
+}
