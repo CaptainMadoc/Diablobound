@@ -50,7 +50,7 @@
 				"properties" : {
 					"zLevel" : 1,
 					"centered" : true,
-					"offset" : [0.80, 0.25],
+					"offset" : [0.60, 0.06],
 					"transformationGroups" : ["gun"]
 				},
 		

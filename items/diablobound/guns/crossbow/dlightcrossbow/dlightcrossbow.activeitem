@@ -46,13 +46,13 @@
 	"gunConfig" : {	
 		"inaccuracy" 		: 0, 					//Your random number generator
 		"compatibleAmmo" 	: ["dcrossbowbolt" , "dcrossbowbolt" ],
-		"projectileConfig" 	: {"speed" : 90, "power" : 25},
+		"projectileConfig" 	: {"speed" : 60, "power" : 9},
 		"projectileType" 	: "diabloboundbolt",
 		"smokeEffect" 		: false,
 		"shellEffect" 		: false,
-		"fireOffset" 		: [4.80,0.40],			//the projectile pos
+		"fireOffset" 		: [2.20,0.30],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
-		"fireSpeed" 		: 0.5,					//atataatatatatata
+		"fireSpeed" 		: 0.65,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation
 		"fireMode" 			: "auto", 				//auto, burst, semi
 		"burstAmount" 		: 5,
