@@ -50,7 +50,7 @@
 				"properties" : {
 					"zLevel" : 1,
 					"centered" : true,
-					"offset" : [0.80, 0.06],
+					"offset" : [1.12, 0],
 					"transformationGroups" : ["gun"]
 				},
 		
@@ -58,7 +58,7 @@
 					"gun" : {
 						"default" : {
 							"properties" : {
-								"image" : "/items/diablobound/sprite/guns/crossbow/drepeatingcrossbow.png"
+								"image" : "/items/diablobound/sprite/guns/crossbow/darbalest.png"
 							}
 						}
 					}
@@ -68,7 +68,7 @@
 	},
 	
 	"sounds" : {
-		"fire" : ["/sfx/Diablobound/weapon/diablocrossbow4.ogg"],
+		"fire" : ["/sfx/Diablobound/weapon/diablocrossbow2.ogg"],
 		"dry" : ["/sfx/objects/hiddenswitch1.ogg"]
 	},
 	

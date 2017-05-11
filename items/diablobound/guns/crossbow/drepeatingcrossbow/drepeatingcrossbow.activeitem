@@ -3,7 +3,7 @@
 	"price" : 0,
 	"maxStack" : 1,
 	"rarity" : "common",
-	"category" : "Crossbow Tier 1",
+	"category" : "Rep C'bow Tier 1",
 	"description" : "",
 	"shortdescription" : "Repeating Crossbow",
 	"tooltipKind" : "base",
@@ -50,9 +50,9 @@
 		"projectileType" 	: "diabloboundbolt",
 		"smokeEffect" 		: false,
 		"shellEffect" 		: false,
-		"fireOffset" 		: [2.20,0.30],			//the projectile pos
+		"fireOffset" 		: [2.20,0.15],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
-		"fireSpeed" 		: 0.3,					//atataatatatatata
+		"fireSpeed" 		: 0.5,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation
 		"fireMode" 			: "auto", 				//auto, burst, semi
 		"burstAmount" 		: 5,

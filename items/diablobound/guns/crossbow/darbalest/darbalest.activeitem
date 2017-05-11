@@ -1,15 +1,15 @@
 {
-	"itemName" : "dlightcrossbow",
+	"itemName" : "darbalest",
 	"price" : 0,
 	"maxStack" : 1,
 	"rarity" : "common",
-	"category" : "Light C'bow Tier 1",
+	"category" : "Light C'bow Tier 2",
 	"description" : "",
-	"shortdescription" : "Light Crossbow",
+	"shortdescription" : "Arbalest",
 	"tooltipKind" : "base",
 	"twoHanded" : true,
 	
-	"inventoryIcon" : "/items/diablobound/sprite/guns/crossbow/dlightcrossbow.png",
+	"inventoryIcon" : "/items/diablobound/sprite/guns/crossbow/darbalest.png",
 	
 	"animation" : "gunsprite.animation",
 	"animationParts" : { },
@@ -46,17 +46,17 @@
 	"gunConfig" : {	
 		"inaccuracy" 		: 0, 					//Your random number generator
 		"compatibleAmmo" 	: ["dcrossbowbolt" , "dcrossbowbolt" ],
-		"projectileConfig" 	: {"speed" : 80, "power" : 9},
+		"projectileConfig" 	: {"speed" : 100, "power" : 27},
 		"projectileType" 	: "diabloboundbolt",
 		"smokeEffect" 		: false,
 		"shellEffect" 		: false,
-		"fireOffset" 		: [2.20,0.30],			//the projectile pos
+		"fireOffset" 		: [2.20,0.31],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
-		"fireSpeed" 		: 0.65,					//atataatatatatata
+		"fireSpeed" 		: 0.7,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation
 		"fireMode" 			: "auto", 				//auto, burst, semi
 		"burstAmount" 		: 5,
-		"burstCooldown" 	: 0.8,
+		"burstCooldown" 	: 1.8,
 		"recoilPower" 		: 1,					//The higher, The more harder to control
 		"recoilRecovery" 	: 1, 					//Higher the slower
 		"magazineMax" 		: 1,

@@ -3,7 +3,7 @@
 	"price" : 0,
 	"maxStack" : 1,
 	"rarity" : "common",
-	"category" : "Crossbow Tier 1",
+	"category" : "Heavy C'bow Tier 1",
 	"description" : "",
 	"shortdescription" : "Heavy Crossbow",
 	"tooltipKind" : "base",
@@ -50,7 +50,7 @@
 		"projectileType" 	: "diabloboundbolt",
 		"smokeEffect" 		: false,
 		"shellEffect" 		: false,
-		"fireOffset" 		: [2.20,0.30],			//the projectile pos
+		"fireOffset" 		: [2.20,0.60],			//the projectile pos
 		"shellOffset" 		: [1.35,0.20], 			//the falling shell init pos
 		"fireSpeed" 		: 1.2,					//atataatatatatata
 		"gunSounds" 		: ["fire"], 			//Sounds from .animation

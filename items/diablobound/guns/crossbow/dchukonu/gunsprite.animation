@@ -58,7 +58,7 @@
 					"gun" : {
 						"default" : {
 							"properties" : {
-								"image" : "/items/diablobound/sprite/guns/crossbow/drepeatingcrossbow.png"
+								"image" : "/items/diablobound/sprite/guns/crossbow/dchukonu.png"
 							}
 						}
 					}
